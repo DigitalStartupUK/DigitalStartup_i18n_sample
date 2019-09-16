@@ -10,6 +10,6 @@ You should take the time to read the files and understand the structure in order
 ## Installation
 1. Upload the `i18n/DigitalStartup` folder to `<magento>/app/`. (resulting in `<magento>/app/i18n/DigitalStartup`)
 2. Deploy Static Content for both languages: `bin/magento setup:static-content:deploy en_GB fr_FR -f`
-3. Clean Cache `bin/magento: cache:clean`
-4. Flush Cache `bin/magento: cache:flush`
+3. Clean Cache: `bin/magento cache:clean`
+4. Flush Cache: `bin/magento cache:flush`
 5. Change your locale in **Stores > Configuration > General > General > Locale Options > Locale**
